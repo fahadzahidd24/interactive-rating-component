@@ -1,0 +1,125 @@
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    color:  hsl(0, 0%, 100%);
+    min-height: 100vh;
+    /* display:flex ; */
+    /* flex-direction: column; */
+    font-family: 'Overpass',sans-serif;
+    
+}
+.attribution{
+    /* align-items: flex-end; */
+    /* justify-content:flex-end; */
+    align-self: flex-end;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    margin-top: 6rem;
+    width: 23rem;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    background-color: hsl(214, 19%, 14%);
+    /* display:none */
+}
+.star{
+    padding: 1em;
+    background-color: hsl(214, 15%, 21%);
+    width: 1rem;
+    border-radius: 50%;
+    /* margin: 1rem; */
+}
+.initial{
+    padding: 2rem;
+    /* display: none; */
+    /* display: block; */
+}
+p{
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.opt{
+    display: block;
+    position: relative;
+    width: 3rem;
+    height: 0;
+    padding-bottom:3rem;
+    background-color: hsl(214, 15%, 21%);
+    line-height: 3;
+    color: var(--white);
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+}
+.opt:hover{
+    background-color:hsl(216, 12%, 54%);
+}
+input[type=radio]{
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+.opt:active{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+.btn{
+    width: 304px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 1.7rem;
+    border-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    border-color: white;
+}
+.thankYou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display:none;
+    /* display: ; */
+    align-items: center;
+    text-align: center;
+}
+.illustrate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    /* color: hsl(0, 67%, 45%); */
+}
+.you{
+    background-color: hsl(214, 15%, 21%);
+    width: 11rem;
+    border-radius: 2rem;
+    color: hsl(25, 97%, 53%);
+    padding: 5px 10px 5px 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.tyH1{
+    text-align: center;
+    /* margin-top: 40px; */
+}
+.tyP{
+    text-align: center;
+    margin: 0 40px 40px 40px;
+}
